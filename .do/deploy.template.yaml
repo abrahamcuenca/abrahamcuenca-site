@@ -1,0 +1,9 @@
+spec:
+  name: abrahamcuenca-site
+  static_sites:
+    - build_command: npm build
+      environment_slug: gatsby
+      git:
+        branch: main
+        repo_clone_url: https://github.com/abrahamcuenca/abrahamcuenca-site.git
+      name: abrahamcuenca-site

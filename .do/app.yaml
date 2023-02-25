@@ -1,0 +1,9 @@
+name: abrahamcuenca-site
+static_sites:
+  -  build_command: npm build
+     environment_slug: gatsby
+     github:
+       branch: main
+       deploy_on_push: true
+       repo: abrahamcuenca/abrahamcuenca-site
+     name: abrahamcuenca-site
